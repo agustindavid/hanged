@@ -8,8 +8,11 @@
     'venezuela',
     'mexico',
     'colombia',
-    'estados unidos',
+    'canada',
+    'panama',
+    'italia',
   ]
+
 
   let fruits = [
     'manzana',
@@ -102,6 +105,7 @@ function getRandomInt(max) {
     {/each}
   </div>
 
+  {#if $notValidLetters.length > 0}
   <div>
     <svg class="waves" transition:fly style="height: {15 * $attempts}vh ;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
     viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
@@ -116,6 +120,7 @@ function getRandomInt(max) {
     </g>
     </svg>
     </div>  
+    {/if}
   </div>
 </main>
 

@@ -34,4 +34,19 @@
         line-height: 1;
         height: 4rem;
     }
+
+    @media screen and (max-media: 767px) {
+        span {
+            font-size: 2rem;
+            border: 0;
+            border-bottom: 2px solid #fff;
+            width: auto;
+            text-align: center;
+            padding: 0 1rem;
+            display: block;
+            line-height: 1;
+            height: auto;
+            min-height: 2rem;
+        }
+    }
 </style>
