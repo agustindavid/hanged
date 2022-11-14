@@ -5,22 +5,12 @@
   import {fly} from 'svelte/transition';
 
   let countries = [
-    'venezuela',
-    'mexico',
-    'colombia',
-    'canada',
-    'panama',
-    'italia',
+    'venezuela'
   ]
 
 
   let fruits = [
-    'manzana',
-    'mandarina',
-    'sandia',
-    'banana',
-    'pera',
-    'papaya',
+    'manzana'
   ]
 
 function getRandomInt(max) {
