@@ -37,7 +37,7 @@
 
     @media screen and (max-width: 767px) {
         span {
-            font-size: 2rem;
+            font-size: 1rem;
             border: 0;
             border-bottom: 2px solid #fff;
             width: auto;
