@@ -35,7 +35,7 @@
         height: 4rem;
     }
 
-    @media screen and (max-media: 767px) {
+    @media screen and (max-width: 767px) {
         span {
             font-size: 2rem;
             border: 0;
