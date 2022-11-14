@@ -69,7 +69,7 @@ function getRandomInt(max) {
       {#if $validLetters.length == $word.length}
         <div class="courtain won" style="background-image: url(/{$wordString}.png);">
           Ganaste.<br>
-          La palabra era 
+          La palabra era<br>
           {$wordString}
         </div>
       {/if}
@@ -228,6 +228,10 @@ function getRandomInt(max) {
   .waves {
     height:40px;
     min-height:40px;
+  }
+
+  .courtain {
+    font-size: 3rem;
   }
 }
 </style>
